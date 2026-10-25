@@ -1,0 +1,359 @@
+t=   51.0 s  ax=-0.424  ay=-0.021  az=+0.876 g   |a|=0.974 g
+t=   51.1 s  ax=-0.424  ay=-0.024  az=+0.883 g   |a|=0.980 g
+t=   51.2 s  ax=-0.424  ay=-0.022  az=+0.877 g   |a|=0.974 g
+t=   51.3 s  ax=-0.425  ay=-0.021  az=+0.880 g   |a|=0.978 g
+t=   51.4 s  ax=-0.423  ay=-0.025  az=+0.880 g   |a|=0.976 g
+t=   51.5 s  ax=-0.421  ay=-0.022  az=+0.882 g   |a|=0.978 g
+t=   51.6 s  ax=-0.426  ay=-0.022  az=+0.882 g   |a|=0.980 g
+t=   51.7 s  ax=-0.419  ay=-0.022  az=+0.874 g   |a|=0.969 g
+t=   51.8 s  ax=-0.427  ay=-0.020  az=+0.882 g   |a|=0.980 g
+t=   51.9 s  ax=-0.426  ay=-0.023  az=+0.873 g   |a|=0.972 g
+t=   52.0 s  ax=-0.422  ay=-0.023  az=+0.883 g   |a|=0.979 g
+t=   52.1 s  ax=-0.424  ay=-0.018  az=+0.884 g   |a|=0.981 g
+t=   52.2 s  ax=-0.426  ay=-0.024  az=+0.883 g   |a|=0.981 g
+t=   52.3 s  ax=-0.422  ay=-0.022  az=+0.878 g   |a|=0.975 g
+t=   52.4 s  ax=-0.424  ay=-0.023  az=+0.878 g   |a|=0.976 g
+t=   52.5 s  ax=-0.415  ay=-0.026  az=+0.877 g   |a|=0.970 g
+t=   52.6 s  ax=-0.423  ay=-0.021  az=+0.876 g   |a|=0.973 g
+t=   52.7 s  ax=-0.422  ay=-0.024  az=+0.883 g   |a|=0.979 g
+t=   52.8 s  ax=-0.421  ay=-0.025  az=+0.875 g   |a|=0.971 g
+t=   52.9 s  ax=-0.422  ay=-0.023  az=+0.877 g   |a|=0.974 g
+t=   53.0 s  ax=-0.422  ay=-0.023  az=+0.875 g   |a|=0.972 g
+t=   53.1 s  ax=-0.420  ay=-0.027  az=+0.880 g   |a|=0.975 g
+t=   53.2 s  ax=-0.422  ay=-0.022  az=+0.878 g   |a|=0.974 g
+t=   53.3 s  ax=-0.422  ay=-0.025  az=+0.881 g   |a|=0.977 g
+t=   53.4 s  ax=-0.423  ay=-0.023  az=+0.876 g   |a|=0.973 g
+t=   53.5 s  ax=-0.424  ay=-0.027  az=+0.875 g   |a|=0.973 g
+t=   53.6 s  ax=-0.419  ay=-0.024  az=+0.883 g   |a|=0.978 g
+t=   53.7 s  ax=-0.425  ay=-0.024  az=+0.881 g   |a|=0.978 g
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037953a
+--- 0x4037953a: esp_cpu_wait_for_intr at C:/esp/v6.1/esp-idf/components/esp_hw_support/cpu.c:64
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x14f0
+load:0x403c8700,len:0xde4
+--- 0x403c8700: _stext at ??:?
+load:0x403cb700,len:0x2f58
+entry 0x403c8904
+--- 0x403c8904: call_start_cpu0 at C:/esp/v6.1/esp-idf/components/bootloader/subproject/main/bootloader_start.c:27
+I (24) boot: ESP-IDF v6.1 2nd stage bootloader
+I (24) boot: compile time Oct 25 2026 20:43:47
+I (25) boot: Multicore bootloader
+I (25) boot: chip revision: v0.2
+I (27) boot: efuse block revision: v1.4
+I (31) boot.esp32s3: Boot SPI Speed : 80MHz
+I (35) boot.esp32s3: SPI Mode       : DIO
+I (39) boot.esp32s3: SPI Flash Size : 2MB
+I (42) boot: Enabling RNG early entropy source...
+I (47) boot: Partition Table:
+I (49) boot: ## Label            Usage          Type ST Offset   Length
+I (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (69) boot:  2 factory          factory app      00 00 00010000 00100000
+I (75) boot: End of partition table
+I (79) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0b150h ( 45392) map
+I (94) esp_image: segment 1: paddr=0001b178 vaddr=3fc90b00 size=03208h ( 12808) load
+I (97) esp_image: segment 2: paddr=0001e388 vaddr=40374000 size=01c90h (  7312) load
+I (103) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=15c04h ( 89092) map
+I (125) esp_image: segment 4: paddr=00035c2c vaddr=40375c90 size=0adcch ( 44492) load
+I (135) esp_image: segment 5: paddr=00040a00 vaddr=50000000 size=00024h (    36) load
+I (141) boot: Loaded app from partition at offset 0x10000
+I (141) boot: Disabling RNG early entropy source...
+I (153) cpu_start: Multicore app
+I (162) cpu_start: GPIO 44 and 43 are used as console UART I/O pins
+I (162) cpu_start: Pro cpu start user code
+I (162) cpu_start: cpu freq: 240000000 Hz
+I (164) app_init: Application information:
+I (168) app_init: Project name:     lab3_i2c
+I (172) app_init: App version:      1
+I (175) app_init: Compile time:     Oct 25 2026 20:43:10
+I (180) app_init: ELF file SHA256:  9ed609c50...
+I (184) app_init: ESP-IDF:          v6.1
+I (188) efuse_init: Min chip rev:     v0.0
+I (192) efuse_init: Max chip rev:     v0.99 
+I (196) efuse_init: Chip rev:         v0.2
+I (200) heap_init: Initializing. RAM available for dynamic allocation:
+I (206) heap_init: At 3FC94790 len 00054F80 (339 KiB): RAM
+I (211) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (216) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (221) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM
+I (228) spi_flash: detected chip: boya
+I (230) spi_flash: flash io: dio
+W (233) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.
+I (246) sleep_gpio: Configure to isolate all GPIO pins in sleep state
+I (252) sleep_gpio: Enable automatic switching of GPIO sleep configuration
+I (259) main_task: Started on CPU0
+I (259) main_task: Calling app_main()
+
+I2C taraması (SDA=GPIO8, SCL=GPIO9)
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+00:                         -- -- -- -- -- -- -- -- 
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+60: -- -- -- -- -- -- -- -- 68 -- -- -- -- -- -- -- 
+70: -- -- -- -- -- -- -- --                         
+Bulunan cihaz: 1
+WHO_AM_I (0x75) = 0x70 (beklenen 0x68; benzer bir sensör olabilir)
+0x69 adresine yoklama: ESP_ERR_NOT_FOUND -> NACK (adreste cihaz yok)
+ACCEL_CONFIG geri okundu: 0x08 (±4 g)
+Örnekleme başladı: 100 ms periyot (10 Hz), ölçek ±4 g
+I (429) main_task: Returned from app_main()
+t=    0.3 s  ax=-0.426  ay=-0.023  az=+0.886 g   |a|=0.984 g
+t=    0.4 s  ax=-0.422  ay=-0.023  az=+0.876 g   |a|=0.973 g
+t=    0.5 s  ax=-0.420  ay=-0.026  az=+0.879 g   |a|=0.975 g
+t=    0.6 s  ax=-0.424  ay=-0.023  az=+0.876 g   |a|=0.974 g
+t=    0.7 s  ax=-0.427  ay=-0.019  az=+0.872 g   |a|=0.971 g
+t=    0.8 s  ax=-0.428  ay=-0.022  az=+0.881 g   |a|=0.980 g
+t=    0.9 s  ax=-0.427  ay=-0.025  az=+0.875 g   |a|=0.973 g
+t=    1.0 s  ax=-0.422  ay=-0.021  az=+0.875 g   |a|=0.972 g
+t=    1.1 s  ax=-0.423  ay=-0.027  az=+0.872 g   |a|=0.969 g
+t=    1.2 s  ax=-0.426  ay=-0.022  az=+0.883 g   |a|=0.980 g
+t=    1.3 s  ax=-0.422  ay=-0.022  az=+0.875 g   |a|=0.972 g
+t=    1.4 s  ax=-0.426  ay=-0.024  az=+0.869 g   |a|=0.968 g
+t=    1.5 s  ax=-0.423  ay=-0.024  az=+0.878 g   |a|=0.975 g
+t=    1.6 s  ax=-0.425  ay=-0.023  az=+0.878 g   |a|=0.976 g
+t=    1.7 s  ax=-0.421  ay=-0.025  az=+0.882 g   |a|=0.978 g
+t=    1.8 s  ax=-0.426  ay=-0.023  az=+0.878 g   |a|=0.976 g
+t=    1.9 s  ax=-0.422  ay=-0.024  az=+0.875 g   |a|=0.971 g
+t=    2.0 s  ax=-0.421  ay=-0.022  az=+0.873 g   |a|=0.970 g
+t=    2.1 s  ax=-0.426  ay=-0.020  az=+0.874 g   |a|=0.972 g
+t=    2.2 s  ax=-0.425  ay=-0.023  az=+0.878 g   |a|=0.975 g
+t=    2.3 s  ax=-0.421  ay=-0.021  az=+0.874 g   |a|=0.970 g
+t=    2.4 s  ax=-0.425  ay=-0.018  az=+0.882 g   |a|=0.979 g
+t=    2.5 s  ax=-0.422  ay=-0.022  az=+0.879 g   |a|=0.976 g
+t=    2.6 s  ax=-0.422  ay=-0.026  az=+0.877 g   |a|=0.973 g
+t=    2.7 s  ax=-0.428  ay=-0.025  az=+0.875 g   |a|=0.975 g
+t=    2.8 s  ax=-0.421  ay=-0.022  az=+0.875 g   |a|=0.972 g
+t=    2.9 s  ax=-0.425  ay=-0.021  az=+0.883 g   |a|=0.980 g
+t=    3.0 s  ax=-0.423  ay=-0.025  az=+0.877 g   |a|=0.974 g
+t=    3.1 s  ax=-0.424  ay=-0.025  az=+0.876 g   |a|=0.974 g
+t=    3.2 s  ax=-0.424  ay=-0.024  az=+0.871 g   |a|=0.969 g
+t=    3.3 s  ax=-0.419  ay=-0.021  az=+0.881 g   |a|=0.976 g
+t=    3.4 s  ax=-0.425  ay=-0.021  az=+0.876 g   |a|=0.974 g
+t=    3.5 s  ax=-0.421  ay=-0.024  az=+0.879 g   |a|=0.975 g
+t=    3.6 s  ax=-0.422  ay=-0.021  az=+0.873 g   |a|=0.970 g
+t=    3.7 s  ax=-0.423  ay=-0.021  az=+0.877 g   |a|=0.974 g
+t=    3.8 s  ax=-0.425  ay=-0.026  az=+0.878 g   |a|=0.976 g
+t=    3.9 s  ax=-0.422  ay=-0.018  az=+0.881 g   |a|=0.977 g
+t=    4.0 s  ax=-0.423  ay=-0.026  az=+0.876 g   |a|=0.974 g
+t=    4.1 s  ax=-0.422  ay=-0.022  az=+0.876 g   |a|=0.972 g
+t=    4.2 s  ax=-0.422  ay=-0.021  az=+0.877 g   |a|=0.973 g
+t=    4.3 s  ax=-0.421  ay=-0.024  az=+0.878 g   |a|=0.974 g
+t=    4.4 s  ax=-0.423  ay=-0.024  az=+0.878 g   |a|=0.975 g
+t=    4.5 s  ax=-0.425  ay=-0.021  az=+0.880 g   |a|=0.977 g
+t=    4.6 s  ax=-0.423  ay=-0.027  az=+0.879 g   |a|=0.976 g
+t=    4.7 s  ax=-0.424  ay=-0.022  az=+0.877 g   |a|=0.975 g
+t=    4.8 s  ax=-0.427  ay=-0.021  az=+0.880 g   |a|=0.978 g
+t=    4.9 s  ax=-0.421  ay=-0.022  az=+0.875 g   |a|=0.971 g
+t=    5.0 s  ax=-0.424  ay=-0.025  az=+0.878 g   |a|=0.975 g
+t=    5.1 s  ax=-0.419  ay=-0.023  az=+0.876 g   |a|=0.972 g
+t=    5.2 s  ax=-0.421  ay=-0.025  az=+0.873 g   |a|=0.969 g
+t=    5.3 s  ax=-0.426  ay=-0.022  az=+0.874 g   |a|=0.972 g
+t=    5.4 s  ax=-0.423  ay=-0.025  az=+0.880 g   |a|=0.977 g
+t=    5.5 s  ax=-0.422  ay=-0.027  az=+0.881 g   |a|=0.977 g
+t=    5.6 s  ax=-0.420  ay=-0.020  az=+0.880 g   |a|=0.975 g
+t=    5.7 s  ax=-0.423  ay=-0.027  az=+0.882 g   |a|=0.979 g
+t=    5.8 s  ax=-0.423  ay=-0.023  az=+0.878 g   |a|=0.975 g
+t=    5.9 s  ax=-0.422  ay=-0.022  az=+0.876 g   |a|=0.973 g
+t=    6.0 s  ax=-0.420  ay=-0.024  az=+0.873 g   |a|=0.970 g
+t=    6.1 s  ax=-0.423  ay=-0.022  az=+0.872 g   |a|=0.969 g
+t=    6.2 s  ax=-0.419  ay=-0.020  az=+0.875 g   |a|=0.970 g
+t=    6.3 s  ax=-0.425  ay=-0.026  az=+0.877 g   |a|=0.975 g
+t=    6.4 s  ax=-0.422  ay=-0.023  az=+0.876 g   |a|=0.972 g
+t=    6.5 s  ax=-0.422  ay=-0.024  az=+0.878 g   |a|=0.975 g
+t=    6.6 s  ax=-0.422  ay=-0.021  az=+0.879 g   |a|=0.975 g
+t=    6.7 s  ax=-0.419  ay=-0.022  az=+0.877 g   |a|=0.972 g
+t=    6.8 s  ax=-0.425  ay=-0.024  az=+0.881 g   |a|=0.978 g
+t=    6.9 s  ax=-0.424  ay=-0.021  az=+0.880 g   |a|=0.977 g
+t=    7.0 s  ax=-0.423  ay=-0.019  az=+0.874 g   |a|=0.971 g
+t=    7.1 s  ax=-0.427  ay=-0.020  az=+0.879 g   |a|=0.977 g
+t=    7.2 s  ax=-0.423  ay=-0.024  az=+0.875 g   |a|=0.972 g
+t=    7.3 s  ax=-0.421  ay=-0.021  az=+0.873 g   |a|=0.969 g
+t=    7.4 s  ax=-0.424  ay=-0.025  az=+0.878 g   |a|=0.975 g
+t=    7.5 s  ax=-0.420  ay=-0.024  az=+0.878 g   |a|=0.973 g
+t=    7.6 s  ax=-0.423  ay=-0.020  az=+0.876 g   |a|=0.973 g
+t=    7.7 s  ax=-0.422  ay=-0.021  az=+0.883 g   |a|=0.979 g
+t=    7.8 s  ax=-0.423  ay=-0.019  az=+0.874 g   |a|=0.971 g
+t=    7.9 s  ax=-0.424  ay=-0.024  az=+0.872 g   |a|=0.970 g
+t=    8.0 s  ax=-0.420  ay=-0.023  az=+0.878 g   |a|=0.973 g
+t=    8.1 s  ax=-0.425  ay=-0.025  az=+0.877 g   |a|=0.974 g
+t=    8.2 s  ax=-0.427  ay=-0.026  az=+0.881 g   |a|=0.979 g
+t=    8.3 s  ax=-0.424  ay=-0.025  az=+0.873 g   |a|=0.971 g
+t=    8.4 s  ax=-0.423  ay=-0.021  az=+0.880 g   |a|=0.977 g
+t=    8.5 s  ax=-0.423  ay=-0.024  az=+0.879 g   |a|=0.976 g
+t=    8.6 s  ax=-0.426  ay=-0.022  az=+0.870 g   |a|=0.969 g
+t=    8.7 s  ax=-0.424  ay=-0.023  az=+0.874 g   |a|=0.972 g
+t=    8.8 s  ax=-0.424  ay=-0.022  az=+0.876 g   |a|=0.974 g
+t=    8.9 s  ax=-0.422  ay=-0.023  az=+0.873 g   |a|=0.970 g
+t=    9.0 s  ax=-0.421  ay=-0.025  az=+0.877 g   |a|=0.973 g
+t=    9.1 s  ax=-0.423  ay=-0.022  az=+0.872 g   |a|=0.969 g
+t=    9.2 s  ax=-0.424  ay=-0.021  az=+0.879 g   |a|=0.976 g
+t=    9.3 s  ax=-0.428  ay=-0.025  az=+0.870 g   |a|=0.970 g
+t=    9.4 s  ax=-0.425  ay=-0.017  az=+0.872 g   |a|=0.971 g
+t=    9.5 s  ax=-0.426  ay=-0.028  az=+0.875 g   |a|=0.974 g
+t=    9.6 s  ax=-0.421  ay=-0.022  az=+0.877 g   |a|=0.973 g
+t=    9.7 s  ax=-0.419  ay=-0.024  az=+0.879 g   |a|=0.974 g
+t=    9.8 s  ax=-0.422  ay=-0.021  az=+0.883 g   |a|=0.978 g
+t=    9.9 s  ax=-0.425  ay=-0.020  az=+0.881 g   |a|=0.978 g
+t=   10.0 s  ax=-0.421  ay=-0.024  az=+0.881 g   |a|=0.976 g
+t=   10.1 s  ax=-0.420  ay=-0.025  az=+0.882 g   |a|=0.977 g
+t=   10.2 s  ax=-0.426  ay=-0.025  az=+0.874 g   |a|=0.972 g
+--- 10 s özeti: 100 örnek (10.00 Hz), |a| en küçük 0.968 g, en büyük 0.984 g, okuma hatası 0 (toplam 0)
+t=   10.3 s  ax=-0.425  ay=-0.019  az=+0.871 g   |a|=0.970 g
+t=   10.4 s  ax=-0.428  ay=-0.026  az=+0.874 g   |a|=0.973 g
+t=   10.5 s  ax=-0.426  ay=-0.023  az=+0.870 g   |a|=0.969 g
+t=   10.6 s  ax=-0.430  ay=-0.019  az=+0.881 g   |a|=0.980 g
+t=   10.7 s  ax=-0.427  ay=-0.024  az=+0.877 g   |a|=0.976 g
+t=   10.8 s  ax=-0.426  ay=-0.025  az=+0.877 g   |a|=0.975 g
+t=   10.9 s  ax=-0.428  ay=-0.026  az=+0.880 g   |a|=0.979 g
+t=   11.0 s  ax=-0.426  ay=-0.023  az=+0.877 g   |a|=0.975 g
+t=   11.1 s  ax=-0.427  ay=-0.026  az=+0.877 g   |a|=0.976 g
+t=   11.2 s  ax=-0.427  ay=-0.023  az=+0.875 g   |a|=0.974 g
+t=   11.3 s  ax=-0.426  ay=-0.023  az=+0.877 g   |a|=0.975 g
+t=   11.4 s  ax=-0.425  ay=-0.027  az=+0.881 g   |a|=0.978 g
+t=   11.5 s  ax=-0.428  ay=-0.023  az=+0.881 g   |a|=0.980 g
+t=   11.6 s  ax=-0.423  ay=-0.025  az=+0.882 g   |a|=0.979 g
+t=   11.7 s  ax=-0.427  ay=-0.022  az=+0.870 g   |a|=0.969 g
+t=   11.8 s  ax=-0.425  ay=-0.022  az=+0.874 g   |a|=0.972 g
+t=   11.9 s  ax=-0.419  ay=-0.022  az=+0.873 g   |a|=0.969 g
+t=   12.0 s  ax=-0.427  ay=-0.022  az=+0.877 g   |a|=0.976 g
+t=   12.1 s  ax=-0.424  ay=-0.024  az=+0.876 g   |a|=0.973 g
+t=   12.2 s  ax=-0.425  ay=-0.023  az=+0.874 g   |a|=0.972 g
+t=   12.3 s  ax=-0.427  ay=-0.026  az=+0.881 g   |a|=0.980 g
+t=   12.4 s  ax=-0.425  ay=-0.022  az=+0.871 g   |a|=0.969 g
+t=   12.5 s  ax=-0.425  ay=-0.024  az=+0.876 g   |a|=0.974 g
+t=   12.6 s  ax=-0.426  ay=-0.025  az=+0.879 g   |a|=0.977 g
+t=   12.7 s  ax=-0.424  ay=-0.024  az=+0.873 g   |a|=0.971 g
+t=   12.8 s  ax=-0.426  ay=-0.026  az=+0.874 g   |a|=0.973 g
+t=   12.9 s  ax=-0.429  ay=-0.022  az=+0.878 g   |a|=0.978 g
+t=   13.0 s  ax=-0.424  ay=-0.016  az=+0.880 g   |a|=0.977 g
+t=   13.1 s  ax=-0.429  ay=-0.023  az=+0.867 g   |a|=0.968 g
+t=   13.2 s  ax=-0.425  ay=-0.023  az=+0.872 g   |a|=0.970 g
+t=   13.3 s  ax=-0.426  ay=-0.024  az=+0.874 g   |a|=0.972 g
+t=   13.4 s  ax=-0.426  ay=-0.023  az=+0.873 g   |a|=0.972 g
+t=   13.5 s  ax=-0.428  ay=-0.017  az=+0.872 g   |a|=0.971 g
+t=   13.6 s  ax=-0.425  ay=-0.021  az=+0.884 g   |a|=0.981 g
+t=   13.7 s  ax=-0.427  ay=-0.016  az=+0.878 g   |a|=0.976 g
+t=   13.8 s  ax=-0.427  ay=-0.021  az=+0.877 g   |a|=0.976 g
+t=   13.9 s  ax=-0.417  ay=-0.021  az=+0.880 g   |a|=0.974 g
+t=   14.0 s  ax=-0.421  ay=-0.024  az=+0.876 g   |a|=0.972 g
+t=   14.1 s  ax=-0.425  ay=-0.023  az=+0.883 g   |a|=0.980 g
+t=   14.2 s  ax=-0.423  ay=-0.020  az=+0.873 g   |a|=0.970 g
+t=   14.3 s  ax=-0.424  ay=-0.020  az=+0.876 g   |a|=0.974 g
+t=   14.4 s  ax=-0.422  ay=-0.022  az=+0.876 g   |a|=0.973 g
+t=   14.5 s  ax=-0.424  ay=-0.022  az=+0.875 g   |a|=0.972 g
+t=   14.6 s  ax=-0.427  ay=-0.025  az=+0.876 g   |a|=0.974 g
+t=   14.7 s  ax=-0.422  ay=-0.019  az=+0.876 g   |a|=0.973 g
+t=   14.8 s  ax=-0.424  ay=-0.022  az=+0.880 g   |a|=0.977 g
+t=   14.9 s  ax=-0.422  ay=-0.024  az=+0.877 g   |a|=0.974 g
+t=   15.0 s  ax=-0.422  ay=-0.017  az=+0.878 g   |a|=0.974 g
+t=   15.1 s  ax=-0.426  ay=-0.021  az=+0.876 g   |a|=0.975 g
+t=   15.2 s  ax=-0.422  ay=-0.023  az=+0.874 g   |a|=0.971 g
+t=   15.3 s  ax=-0.425  ay=-0.022  az=+0.880 g   |a|=0.977 g
+t=   15.4 s  ax=-0.425  ay=-0.021  az=+0.879 g   |a|=0.976 g
+t=   15.5 s  ax=-0.425  ay=-0.023  az=+0.873 g   |a|=0.971 g
+t=   15.6 s  ax=-0.428  ay=-0.023  az=+0.876 g   |a|=0.976 g
+t=   15.7 s  ax=-0.424  ay=-0.021  az=+0.883 g   |a|=0.979 g
+t=   15.8 s  ax=-0.428  ay=-0.025  az=+0.878 g   |a|=0.977 g
+t=   15.9 s  ax=-0.428  ay=-0.021  az=+0.875 g   |a|=0.975 g
+t=   16.0 s  ax=-0.427  ay=-0.022  az=+0.871 g   |a|=0.970 g
+t=   16.1 s  ax=-0.427  ay=-0.018  az=+0.873 g   |a|=0.972 g
+t=   16.2 s  ax=-0.425  ay=-0.016  az=+0.877 g   |a|=0.974 g
+t=   16.3 s  ax=-0.419  ay=-0.025  az=+0.876 g   |a|=0.972 g
+t=   16.4 s  ax=-0.420  ay=-0.019  az=+0.879 g   |a|=0.974 g
+t=   16.5 s  ax=-0.413  ay=-0.025  az=+0.872 g   |a|=0.965 g
+t=   16.6 s  ax=-0.425  ay=-0.021  az=+0.874 g   |a|=0.972 g
+t=   16.7 s  ax=-0.432  ay=-0.020  az=+0.885 g   |a|=0.985 g
+t=   16.8 s  ax=-0.424  ay=-0.023  az=+0.878 g   |a|=0.976 g
+t=   16.9 s  ax=-0.429  ay=-0.020  az=+0.872 g   |a|=0.973 g
+t=   17.0 s  ax=-0.419  ay=-0.022  az=+0.881 g   |a|=0.976 g
+t=   17.1 s  ax=-0.421  ay=-0.024  az=+0.882 g   |a|=0.978 g
+t=   17.2 s  ax=-0.425  ay=-0.024  az=+0.876 g   |a|=0.974 g
+t=   17.3 s  ax=-0.420  ay=-0.022  az=+0.879 g   |a|=0.975 g
+t=   17.4 s  ax=-0.428  ay=-0.021  az=+0.881 g   |a|=0.980 g
+t=   17.5 s  ax=-0.424  ay=-0.021  az=+0.878 g   |a|=0.975 g
+t=   17.6 s  ax=-0.423  ay=-0.020  az=+0.877 g   |a|=0.974 g
+t=   17.7 s  ax=-0.423  ay=-0.025  az=+0.869 g   |a|=0.967 g
+t=   17.8 s  ax=-0.423  ay=-0.023  az=+0.878 g   |a|=0.975 g
+t=   17.9 s  ax=-0.426  ay=-0.022  az=+0.877 g   |a|=0.975 g
+t=   18.0 s  ax=-0.425  ay=-0.021  az=+0.873 g   |a|=0.971 g
+t=   18.1 s  ax=-0.420  ay=-0.030  az=+0.879 g   |a|=0.975 g
+t=   18.2 s  ax=-0.418  ay=-0.025  az=+0.876 g   |a|=0.971 g
+t=   18.3 s  ax=-0.421  ay=-0.021  az=+0.879 g   |a|=0.975 g
+t=   18.4 s  ax=-0.424  ay=-0.020  az=+0.879 g   |a|=0.976 g
+t=   18.5 s  ax=-0.423  ay=-0.019  az=+0.886 g   |a|=0.982 g
+t=   18.6 s  ax=-0.420  ay=-0.024  az=+0.875 g   |a|=0.971 g
+t=   18.7 s  ax=-0.426  ay=-0.021  az=+0.876 g   |a|=0.975 g
+t=   18.8 s  ax=-0.426  ay=-0.020  az=+0.879 g   |a|=0.977 g
+t=   18.9 s  ax=-0.428  ay=-0.020  az=+0.875 g   |a|=0.974 g
+t=   19.0 s  ax=-0.427  ay=-0.027  az=+0.875 g   |a|=0.974 g
+t=   19.1 s  ax=-0.422  ay=-0.027  az=+0.878 g   |a|=0.974 g
+t=   19.2 s  ax=-0.423  ay=-0.022  az=+0.875 g   |a|=0.972 g
+t=   19.3 s  ax=-0.425  ay=-0.023  az=+0.870 g   |a|=0.969 g
+t=   19.4 s  ax=-0.424  ay=-0.021  az=+0.878 g   |a|=0.975 g
+t=   19.5 s  ax=-0.428  ay=-0.023  az=+0.877 g   |a|=0.976 g
+t=   19.6 s  ax=-0.426  ay=-0.025  az=+0.872 g   |a|=0.971 g
+t=   19.7 s  ax=-0.426  ay=-0.026  az=+0.873 g   |a|=0.972 g
+t=   19.8 s  ax=-0.426  ay=-0.024  az=+0.877 g   |a|=0.975 g
+t=   19.9 s  ax=-0.429  ay=-0.021  az=+0.877 g   |a|=0.977 g
+t=   20.0 s  ax=-0.423  ay=-0.021  az=+0.873 g   |a|=0.970 g
+t=   20.1 s  ax=-0.425  ay=-0.024  az=+0.879 g   |a|=0.977 g
+t=   20.2 s  ax=-0.424  ay=-0.025  az=+0.878 g   |a|=0.976 g
+--- 10 s özeti: 100 örnek (10.00 Hz), |a| en küçük 0.965 g, en büyük 0.985 g, okuma hatası 0 (toplam 0)
+t=   20.3 s  ax=-0.423  ay=-0.021  az=+0.878 g   |a|=0.975 g
+t=   20.4 s  ax=-0.424  ay=-0.023  az=+0.876 g   |a|=0.974 g
+t=   20.5 s  ax=-0.422  ay=-0.018  az=+0.875 g   |a|=0.972 g
+t=   20.6 s  ax=-0.423  ay=-0.022  az=+0.877 g   |a|=0.974 g
+t=   20.7 s  ax=-0.425  ay=-0.019  az=+0.876 g   |a|=0.974 g
+t=   20.8 s  ax=-0.422  ay=-0.019  az=+0.878 g   |a|=0.974 g
+t=   20.9 s  ax=-0.427  ay=-0.022  az=+0.877 g   |a|=0.975 g
+t=   21.0 s  ax=-0.426  ay=-0.021  az=+0.875 g   |a|=0.974 g
+t=   21.1 s  ax=-0.422  ay=-0.025  az=+0.878 g   |a|=0.974 g
+t=   21.2 s  ax=-0.420  ay=-0.022  az=+0.874 g   |a|=0.970 g
+t=   21.3 s  ax=-0.424  ay=-0.022  az=+0.876 g   |a|=0.973 g
+t=   21.4 s  ax=-0.424  ay=-0.021  az=+0.878 g   |a|=0.976 g
+t=   21.5 s  ax=-0.425  ay=-0.023  az=+0.874 g   |a|=0.972 g
+t=   21.6 s  ax=-0.424  ay=-0.018  az=+0.878 g   |a|=0.975 g
+t=   21.7 s  ax=-0.426  ay=-0.019  az=+0.869 g   |a|=0.968 g
+t=   21.8 s  ax=-0.425  ay=-0.024  az=+0.875 g   |a|=0.973 g
+t=   21.9 s  ax=-0.427  ay=-0.020  az=+0.877 g   |a|=0.975 g
+t=   22.0 s  ax=-0.424  ay=-0.026  az=+0.872 g   |a|=0.970 g
+t=   22.1 s  ax=-0.425  ay=-0.019  az=+0.881 g   |a|=0.979 g
+t=   22.2 s  ax=-0.425  ay=-0.018  az=+0.875 g   |a|=0.973 g
+t=   22.3 s  ax=-0.424  ay=-0.023  az=+0.881 g   |a|=0.978 g
+t=   22.4 s  ax=-0.427  ay=-0.022  az=+0.876 g   |a|=0.975 g
+t=   22.5 s  ax=-0.426  ay=-0.020  az=+0.879 g   |a|=0.976 g
+t=   22.6 s  ax=-0.427  ay=-0.022  az=+0.881 g   |a|=0.979 g
+t=   22.7 s  ax=-0.426  ay=-0.021  az=+0.879 g   |a|=0.977 g
+t=   22.8 s  ax=-0.425  ay=-0.021  az=+0.872 g   |a|=0.970 g
+t=   22.9 s  ax=-0.426  ay=-0.021  az=+0.880 g   |a|=0.978 g
+t=   23.0 s  ax=-0.426  ay=-0.021  az=+0.875 g   |a|=0.973 g
+t=   23.1 s  ax=-0.425  ay=-0.020  az=+0.876 g   |a|=0.974 g
+t=   23.2 s  ax=-0.425  ay=-0.025  az=+0.875 g   |a|=0.973 g
+t=   23.3 s  ax=-0.425  ay=-0.024  az=+0.875 g   |a|=0.973 g
+t=   23.4 s  ax=-0.421  ay=-0.025  az=+0.880 g   |a|=0.976 g
+t=   23.5 s  ax=-0.426  ay=-0.022  az=+0.875 g   |a|=0.973 g
+t=   23.6 s  ax=-0.425  ay=-0.027  az=+0.879 g   |a|=0.977 g
+t=   23.7 s  ax=-0.423  ay=-0.021  az=+0.873 g   |a|=0.970 g
+t=   23.8 s  ax=-0.426  ay=-0.021  az=+0.872 g   |a|=0.970 g
+t=   23.9 s  ax=-0.424  ay=-0.022  az=+0.877 g   |a|=0.975 g
+t=   24.0 s  ax=-0.425  ay=-0.022  az=+0.873 g   |a|=0.971 g
+t=   24.1 s  ax=-0.422  ay=-0.023  az=+0.870 g   |a|=0.967 g
+t=   24.2 s  ax=-0.423  ay=-0.022  az=+0.872 g   |a|=0.969 g
+t=   24.3 s  ax=-0.426  ay=-0.023  az=+0.876 g   |a|=0.974 g
+t=   24.4 s  ax=-0.426  ay=-0.022  az=+0.874 g   |a|=0.972 g
+t=   24.5 s  ax=-0.424  ay=-0.020  az=+0.869 g   |a|=0.967 g
+t=   24.6 s  ax=-0.426  ay=-0.021  az=+0.876 g   |a|=0.974 g
+t=   24.7 s  ax=-0.425  ay=-0.021  az=+0.873 g   |a|=0.971 g
+t=   24.8 s  ax=-0.427  ay=-0.023  az=+0.885 g   |a|=0.983 g
+t=   24.9 s  ax=-0.425  ay=-0.021  az=+0.877 g   |a|=0.975 g
+t=   25.0 s  ax=-0.426  ay=-0.022  az=+0.879 g   |a|=0.977 g
+t=   25.1 s  ax=-0.424  ay=-0.023  az=+0.876 g   |a|=0.973 g
+t=   25.2 s  ax=-0.427  ay=-0.026  az=+0.873 g   |a|=0.972 g
+t=   25.3 s  ax=-0.427  ay=-0.024  az=+0.871 g   |a|=0.970 g

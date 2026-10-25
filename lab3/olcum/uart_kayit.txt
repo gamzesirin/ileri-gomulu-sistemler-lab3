@@ -1,0 +1,267 @@
+UART2 230400 baud (gerçek 230423, fark +100,0%): 36 bayt, çerçeve hatası 20
+    hex: 86 66 80 86 9E E0 9E 86 9E 1E 06 18 E0 66 66 7E 60 06 18 7E 66 E6 F8 06 ...
+    metin: ".f...........ff~`..~f..."
+
+########## Tur 4 ##########
+
+=== Doğru baud: UART1 115200 baud, GPIO17 -> GPIO18 ===
+  P031 merhaba ESP32-S3  ->  "P031 merhaba ESP32-S3"  AYNI  2837 us
+  P032 merhaba ESP32-S3  ->  "P032 merhaba ESP32-S3"  AYNI  2829 us
+  P033 merhaba ESP32-S3  ->  "P033 merhaba ESP32-S3"  AYNI  2825 us
+  P034 merhaba ESP32-S3  ->  "P034 merhaba ESP32-S3"  AYNI  2825 us
+  P035 merhaba ESP32-S3  ->  "P035 merhaba ESP32-S3"  AYNI  2825 us
+  P036 merhaba ESP32-S3  ->  "P036 merhaba ESP32-S3"  AYNI  2825 us
+  P037 merhaba ESP32-S3  ->  "P037 merhaba ESP32-S3"  AYNI  2825 us
+  P038 merhaba ESP32-S3  ->  "P038 merhaba ESP32-S3"  AYNI  2829 us
+  P039 merhaba ESP32-S3  ->  "P039 merhaba ESP32-S3"  AYNI  2825 us
+  P040 merhaba ESP32-S3  ->  "P040 merhaba ESP32-S3"  AYNI  2825 us
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378f0a
+--- 0x40378f0a: esp_cpu_wait_for_intr at C:/esp/v6.1/esp-idf/components/esp_hw_support/cpu.c:64
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x14f0
+load:0x403c8700,len:0xde4
+--- 0x403c8700: _stext at ??:?
+load:0x403cb700,len:0x2f58
+entry 0x403c8904
+--- 0x403c8904: call_start_cpu0 at C:/esp/v6.1/esp-idf/components/bootloader/subproject/main/bootloader_start.c:27
+I (24) boot: ESP-IDF v6.1 2nd stage bootloader
+I (24) boot: compile time Oct 25 2026 20:16:42
+I (25) boot: Multicore bootloader
+I (25) boot: chip revision: v0.2
+I (27) boot: efuse block revision: v1.4
+I (31) boot.esp32s3: Boot SPI Speed : 80MHz
+I (35) boot.esp32s3: SPI Mode       : DIO
+I (39) boot.esp32s3: SPI Flash Size : 2MB
+I (42) boot: Enabling RNG early entropy source...
+I (47) boot: Partition Table:
+I (49) boot: ## Label            Usage          Type ST Offset   Length
+I (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (69) boot:  2 factory          factory app      00 00 00010000 00100000
+I (75) boot: End of partition table
+I (79) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0b1a8h ( 45480) map
+I (94) esp_image: segment 1: paddr=0001b1d0 vaddr=3fc90f00 size=031e8h ( 12776) load
+I (97) esp_image: segment 2: paddr=0001e3c0 vaddr=40374000 size=01c58h (  7256) load
+I (103) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=15ee4h ( 89828) map
+I (125) esp_image: segment 4: paddr=00035f0c vaddr=40375c58 size=0b20ch ( 45580) load
+I (136) esp_image: segment 5: paddr=00041120 vaddr=50000000 size=00024h (    36) load
+I (142) boot: Loaded app from partition at offset 0x10000
+I (142) boot: Disabling RNG early entropy source...
+I (153) cpu_start: Multicore app
+I (162) cpu_start: GPIO 44 and 43 are used as console UART I/O pins
+I (163) cpu_start: Pro cpu start user code
+I (163) cpu_start: cpu freq: 240000000 Hz
+I (164) app_init: Application information:
+I (168) app_init: Project name:     lab3_uart
+I (172) app_init: App version:      1
+I (175) app_init: Compile time:     Oct 25 2026 20:16:09
+I (181) app_init: ELF file SHA256:  fcdde68bf...
+I (185) app_init: ESP-IDF:          v6.1
+I (189) efuse_init: Min chip rev:     v0.0
+I (192) efuse_init: Max chip rev:     v0.99 
+I (196) efuse_init: Chip rev:         v0.2
+I (200) heap_init: Initializing. RAM available for dynamic allocation:
+I (207) heap_init: At 3FC94B90 len 00054B80 (338 KiB): RAM
+I (212) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (217) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (222) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM
+I (228) spi_flash: detected chip: boya
+I (231) spi_flash: flash io: dio
+W (234) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.
+I (246) sleep_gpio: Configure to isolate all GPIO pins in sleep state
+I (252) sleep_gpio: Enable automatic switching of GPIO sleep configuration
+I (259) main_task: Started on CPU0
+I (259) main_task: Calling app_main()
+I (269) uart: queue free spaces: 20
+I (269) uart: queue free spaces: 20
+I (269) uart_lab: UART1: TX=GPIO17 RX=GPIO18, UART2: RX=GPIO16
+
+########## Tur 1 ##########
+
+=== Doğru baud: UART1 115200 baud, GPIO17 -> GPIO18 ===
+  P001 merhaba ESP32-S3  ->  "P001 merhaba ESP32-S3"  AYNI  2990 us
+  P002 merhaba ESP32-S3  ->  "P002 merhaba ESP32-S3"  AYNI  2825 us
+  P003 merhaba ESP32-S3  ->  "P003 merhaba ESP32-S3"  AYNI  2823 us
+  P004 merhaba ESP32-S3  ->  "P004 merhaba ESP32-S3"  AYNI  2825 us
+  P005 merhaba ESP32-S3  ->  "P005 merhaba ESP32-S3"  AYNI  2823 us
+  P006 merhaba ESP32-S3  ->  "P006 merhaba ESP32-S3"  AYNI  2825 us
+  P007 merhaba ESP32-S3  ->  "P007 merhaba ESP32-S3"  AYNI  2823 us
+  P008 merhaba ESP32-S3  ->  "P008 merhaba ESP32-S3"  AYNI  2825 us
+  P009 merhaba ESP32-S3  ->  "P009 merhaba ESP32-S3"  AYNI  2823 us
+  P010 merhaba ESP32-S3  ->  "P010 merhaba ESP32-S3"  AYNI  2825 us
+Özet: gönderilen 10, alınan 10, hatalı 0, cevapsız 0 | gecikme ort. 2840 us, en büyük 2990 us | UART1 çerçeve hatası 0, taşma 0
+
+=== Yanlış baud: gönderen UART1 115200 baud, dinleyen UART2 (GPIO16) ===
+Gönderilen 23 bayt: "Yanlis baud testi 0123\n"
+UART2   9600 baud (gerçek   9600, fark -91,6%):  2 bayt, çerçeve hatası 1
+    hex: 80 E4
+    metin: ".."
+UART2  57600 baud (gerçek  57600, fark -50,0%): 11 bayt, çerçeve hatası 8
+    hex: 41 BA 85 95 AC E8 E4 94 C8 CA 25
+    metin: "A.........%"
+UART2 105000 baud (gerçek 105004, fark -8,8%): 18 bayt, çerçeve hatası 14
+    hex: A9 28 CB D5 B3 82 C5 B5 06 D2 C5 B3 27 0B C2 91 D6 22
+    metin: ".(..........'....""
+UART2 230400 baud (gerçek 230423, fark +100,0%): 36 bayt, çerçeve hatası 20
+    hex: 86 66 80 86 9E E0 9E 86 9E 1E 06 18 E0 66 66 7E 60 06 18 7E 66 E6 F8 06 ...
+    metin: ".f...........ff~`..~f..."
+
+########## Tur 2 ##########
+
+=== Doğru baud: UART1 115200 baud, GPIO17 -> GPIO18 ===
+  P011 merhaba ESP32-S3  ->  "P011 merhaba ESP32-S3"  AYNI  2840 us
+  P012 merhaba ESP32-S3  ->  "P012 merhaba ESP32-S3"  AYNI  2834 us
+  P013 merhaba ESP32-S3  ->  "P013 merhaba ESP32-S3"  AYNI  2829 us
+  P014 merhaba ESP32-S3  ->  "P014 merhaba ESP32-S3"  AYNI  2829 us
+  P015 merhaba ESP32-S3  ->  "P015 merhaba ESP32-S3"  AYNI  2829 us
+  P016 merhaba ESP32-S3  ->  "P016 merhaba ESP32-S3"  AYNI  2829 us
+  P017 merhaba ESP32-S3  ->  "P017 merhaba ESP32-S3"  AYNI  2829 us
+  P018 merhaba ESP32-S3  ->  "P018 merhaba ESP32-S3"  AYNI  2829 us
+  P019 merhaba ESP32-S3  ->  "P019 merhaba ESP32-S3"  AYNI  2829 us
+  P020 merhaba ESP32-S3  ->  "P020 merhaba ESP32-S3"  AYNI  2829 us
+Özet: gönderilen 10, alınan 10, hatalı 0, cevapsız 0 | gecikme ort. 2830 us, en büyük 2840 us | UART1 çerçeve hatası 0, taşma 0
+
+=== Yanlış baud: gönderen UART1 115200 baud, dinleyen UART2 (GPIO16) ===
+Gönderilen 23 bayt: "Yanlis baud testi 0123\n"
+UART2   9600 baud (gerçek   9600, fark -91,6%):  2 bayt, çerçeve hatası 1
+    hex: 80 E4
+    metin: ".."
+UART2  57600 baud (gerçek  57600, fark -50,0%): 11 bayt, çerçeve hatası 8
+    hex: 41 BA 85 95 AC E8 E4 94 C8 CA 25
+    metin: "A.........%"
+UART2 105000 baud (gerçek 105004, fark -8,8%): 18 bayt, çerçeve hatası 14
+    hex: A9 28 CB D5 B3 82 C5 B5 06 D2 C5 B3 27 0B C2 91 D6 22
+    metin: ".(..........'....""
+UART2 230400 baud (gerçek 230423, fark +100,0%): 36 bayt, çerçeve hatası 20
+    hex: 86 66 80 86 9E E0 9E 86 9E 1E 06 18 E0 66 66 7E 60 06 18 7E 66 E6 F8 06 ...
+    metin: ".f...........ff~`..~f..."
+
+########## Tur 3 ##########
+
+=== Doğru baud: UART1 115200 baud, GPIO17 -> GPIO18 ===
+  P021 merhaba ESP32-S3  ->  "P021 merhaba ESP32-S3"  AYNI  2838 us
+  P022 merhaba ESP32-S3  ->  "P022 merhaba ESP32-S3"  AYNI  2833 us
+  P023 merhaba ESP32-S3  ->  "P023 merhaba ESP32-S3"  AYNI  2825 us
+  P024 merhaba ESP32-S3  ->  "P024 merhaba ESP32-S3"  AYNI  2827 us
+  P025 merhaba ESP32-S3  ->  "P025 merhaba ESP32-S3"  AYNI  2825 us
+  P026 merhaba ESP32-S3  ->  "P026 merhaba ESP32-S3"  AYNI  2827 us
+  P027 merhaba ESP32-S3  ->  "P027 merhaba ESP32-S3"  AYNI  2825 us
+  P028 merhaba ESP32-S3  ->  "P028 merhaba ESP32-S3"  AYNI  2827 us
+  P029 merhaba ESP32-S3  ->  "P029 merhaba ESP32-S3"  AYNI  2825 us
+  P030 merhaba ESP32-S3  ->  "P030 merhaba ESP32-S3"  AYNI  2827 us
+Özet: gönderilen 10, alınan 10, hatalı 0, cevapsız 0 | gecikme ort. 2827 us, en büyük 2838 us | UART1 çerçeve hatası 0, taşma 0
+
+=== Yanlış baud: gönderen UART1 115200 baud, dinleyen UART2 (GPIO16) ===
+Gönderilen 23 bayt: "Yanlis baud testi 0123\n"
+UART2   9600 baud (gerçek   9600, fark -91,6%):  2 bayt, çerçeve hatası 1
+    hex: 10 26
+    metin: ".&"
+UART2  57600 baud (gerçek  57600, fark -50,0%): 11 bayt, çerçeve hatası 8
+    hex: 41 BA 85 95 AC E8 E4 94 C8 CA 25
+    metin: "A.........%"
+UART2 105000 baud (gerçek 105004, fark -8,8%): 18 bayt, çerçeve hatası 14
+    hex: A9 28 CB D5 B3 82 C5 B5 06 D2 C5 B3 27 0B C2 91 D6 22
+    metin: ".(..........'....""
+UART2 230400 baud (gerçek 230423, fark +100,0%): 36 bayt, çerçeve hatası 20
+    hex: 86 66 80 86 9E E0 9E 86 9E 1E 06 18 E0 66 66 7E 60 06 18 7E 66 E6 F8 06 ...
+    metin: ".f...........ff~`..~f..."
+
+########## Tur 4 ##########
+
+=== Doğru baud: UART1 115200 baud, GPIO17 -> GPIO18 ===
+  P031 merhaba ESP32-S3  ->  "P031 merhaba ESP32-S3"  AYNI  2837 us
+  P032 merhaba ESP32-S3  ->  "P032 merhaba ESP32-S3"  AYNI  2829 us
+  P033 merhaba ESP32-S3  ->  "P033 merhaba ESP32-S3"  AYNI  2825 us
+  P034 merhaba ESP32-S3  ->  "P034 merhaba ESP32-S3"  AYNI  2825 us
+  P035 merhaba ESP32-S3  ->  "P035 merhaba ESP32-S3"  AYNI  2825 us
+  P036 merhaba ESP32-S3  ->  "P036 merhaba ESP32-S3"  AYNI  2825 us
+  P037 merhaba ESP32-S3  ->  "P037 merhaba ESP32-S3"  AYNI  2825 us
+  P038 merhaba ESP32-S3  ->  "P038 merhaba ESP32-S3"  AYNI  2829 us
+  P039 merhaba ESP32-S3  ->  "P039 merhaba ESP32-S3"  AYNI  2825 us
+  P040 merhaba ESP32-S3  ->  "P040 merhaba ESP32-S3"  AYNI  2825 us
+Özet: gönderilen 10, alınan 10, hatalı 0, cevapsız 0 | gecikme ort. 2827 us, en büyük 2837 us | UART1 çerçeve hatası 0, taşma 0
+
+=== Yanlış baud: gönderen UART1 115200 baud, dinleyen UART2 (GPIO16) ===
+Gönderilen 23 bayt: "Yanlis baud testi 0123\n"
+UART2   9600 baud (gerçek   9600, fark -91,6%):  2 bayt, çerçeve hatası 1
+    hex: 10 26
+    metin: ".&"
+UART2  57600 baud (gerçek  57600, fark -50,0%): 11 bayt, çerçeve hatası 8
+    hex: 41 BA 85 95 AC E8 E4 94 C8 CA 25
+    metin: "A.........%"
+UART2 105000 baud (gerçek 105004, fark -8,8%): 18 bayt, çerçeve hatası 14
+    hex: A9 28 CB D5 B3 82 C5 B5 06 D2 C5 B3 27 0B C2 91 D6 22
+    metin: ".(..........'....""
+UART2 230400 baud (gerçek 230423, fark +100,0%): 36 bayt, çerçeve hatası 20
+    hex: 86 66 80 86 9E E0 9E 86 9E 1E 06 18 E0 66 66 7E 60 06 18 7E 66 E6 F8 06 ...
+    metin: ".f...........ff~`..~f..."
+
+########## Tur 5 ##########
+
+=== Doğru baud: UART1 115200 baud, GPIO17 -> GPIO18 ===
+  P041 merhaba ESP32-S3  ->  "P041 merhaba ESP32-S3"  AYNI  2836 us
+  P042 merhaba ESP32-S3  ->  "P042 merhaba ESP32-S3"  AYNI  2829 us
+  P043 merhaba ESP32-S3  ->  "P043 merhaba ESP32-S3"  AYNI  2825 us
+  P044 merhaba ESP32-S3  ->  "P044 merhaba ESP32-S3"  AYNI  2825 us
+  P045 merhaba ESP32-S3  ->  "P045 merhaba ESP32-S3"  AYNI  2825 us
+  P046 merhaba ESP32-S3  ->  "P046 merhaba ESP32-S3"  AYNI  2825 us
+  P047 merhaba ESP32-S3  ->  "P047 merhaba ESP32-S3"  AYNI  2825 us
+  P048 merhaba ESP32-S3  ->  "P048 merhaba ESP32-S3"  AYNI  2825 us
+  P049 merhaba ESP32-S3  ->  "P049 merhaba ESP32-S3"  AYNI  2825 us
+  P050 merhaba ESP32-S3  ->  "P050 merhaba ESP32-S3"  AYNI  2825 us
+Özet: gönderilen 10, alınan 10, hatalı 0, cevapsız 0 | gecikme ort. 2826 us, en büyük 2836 us | UART1 çerçeve hatası 0, taşma 0
+
+=== Yanlış baud: gönderen UART1 115200 baud, dinleyen UART2 (GPIO16) ===
+Gönderilen 23 bayt: "Yanlis baud testi 0123\n"
+UART2   9600 baud (gerçek   9600, fark -91,6%):  2 bayt, çerçeve hatası 1
+    hex: 80 E4
+    metin: ".."
+UART2  57600 baud (gerçek  57600, fark -50,0%): 11 bayt, çerçeve hatası 8
+    hex: 41 BA 85 95 AC E8 E4 94 C8 CA 25
+    metin: "A.........%"
+UART2 105000 baud (gerçek 105004, fark -8,8%): 18 bayt, çerçeve hatası 14
+    hex: A9 28 CB D5 B3 82 C5 B5 06 D2 C5 B3 27 0B C2 91 D6 22
+    metin: ".(..........'....""
+UART2 230400 baud (gerçek 230423, fark +100,0%): 36 bayt, çerçeve hatası 20
+    hex: 86 66 80 86 9E E0 9E 86 9E 1E 06 18 E0 66 66 7E 60 06 18 7E 66 E6 F8 06 ...
+    metin: ".f...........ff~`..~f..."
+
+########## Tur 6 ##########
+
+=== Doğru baud: UART1 115200 baud, GPIO17 -> GPIO18 ===
+  P051 merhaba ESP32-S3  ->  "P051 merhaba ESP32-S3"  AYNI  2841 us
+  P052 merhaba ESP32-S3  ->  "P052 merhaba ESP32-S3"  AYNI  2833 us
+  P053 merhaba ESP32-S3  ->  "P053 merhaba ESP32-S3"  AYNI  2829 us
+  P054 merhaba ESP32-S3  ->  "P054 merhaba ESP32-S3"  AYNI  2829 us
+  P055 merhaba ESP32-S3  ->  "P055 merhaba ESP32-S3"  AYNI  2829 us
+  P056 merhaba ESP32-S3  ->  "P056 merhaba ESP32-S3"  AYNI  2829 us
+  P057 merhaba ESP32-S3  ->  "P057 merhaba ESP32-S3"  AYNI  2829 us
+  P058 merhaba ESP32-S3  ->  "P058 merhaba ESP32-S3"  AYNI  2829 us
+  P059 merhaba ESP32-S3  ->  "P059 merhaba ESP32-S3"  AYNI  2829 us
+  P060 merhaba ESP32-S3  ->  "P060 merhaba ESP32-S3"  AYNI  2829 us
+Özet: gönderilen 10, alınan 10, hatalı 0, cevapsız 0 | gecikme ort. 2830 us, en büyük 2841 us | UART1 çerçeve hatası 0, taşma 0
+
+=== Yanlış baud: gönderen UART1 115200 baud, dinleyen UART2 (GPIO16) ===
+Gönderilen 23 bayt: "Yanlis baud testi 0123\n"
+UART2   9600 baud (gerçek   9600, fark -91,6%):  2 bayt, çerçeve hatası 1
+    hex: 80 E4
+    metin: ".."
+UART2  57600 baud (gerçek  57600, fark -50,0%): 11 bayt, çerçeve hatası 8
+    hex: 41 BA 85 95 AC E8 E4 94 C8 CA 25
+    metin: "A.........%"
+UART2 105000 baud (gerçek 105004, fark -8,8%): 18 bayt, çerçeve hatası 14
+    hex: A9 28 CB D5 B3 82 C5 B5 06 D2 C5 B3 27 0B C2 91 D6 22
+    metin: ".(..........'....""
+UART2 230400 baud (gerçek 230423, fark +100,0%): 36 bayt, çerçeve hatası 20
+    hex: 86 66 80 86 9E E0 9E 86 9E 1E 06 18 E0 66 66 7E 60 06 18 7E 66 E6 F8 06 ...
+    metin: ".f...........ff~`..~f..."
+
+########## Tur 7 ##########
+
+=== Doğru baud: UART1 115200 baud, GPIO17 -> GPIO18 ===
+  P061 merhaba ESP32-S3  ->  "P061 merhaba ESP32-S3"  AYNI  2837 us
+  P062 merhaba ESP32-S3  ->  "P062 merhaba ESP32-S3"  AYNI  2833 us

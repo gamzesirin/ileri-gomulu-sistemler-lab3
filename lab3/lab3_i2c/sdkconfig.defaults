@@ -1,0 +1,2 @@
+# İşlemci saati 240 MHz
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240=y
